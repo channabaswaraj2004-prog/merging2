@@ -6,4 +6,10 @@ public class Merg{
         this.size=a;
         this.fileName=b;
     }
+    public void display(){
+        Merg m = new Merg();
+        m.together(23, "Merging");
+        System.out.println("Size: " + m.size);
+        System.out.println("File Name: " + m.fileName);
+    }
 }

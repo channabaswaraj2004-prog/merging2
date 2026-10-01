@@ -7,7 +7,9 @@ public class MergM{
         this.fileName=b;
     }
     public void display(){
-        System.out.println("Size: " + size);
-        System.out.println("File Name: " + fileName);
+        MergM m = new MergM();
+        m.together(23, "Merging");
+        System.out.println("Size: " + m.size);
+        System.out.println("File Name: " + m.fileName);
     }
 }
